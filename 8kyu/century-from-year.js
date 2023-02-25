@@ -9,7 +9,7 @@
 // 1601 --> 17
 // 2000 --> 20
 
-// Solution 1
+// Solution
 function century(year) {
     return Math.ceil(year / 100)
   }
