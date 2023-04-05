@@ -11,4 +11,4 @@ function digitize(n) {
     return n.toString().split('').reverse().map(num => +num)
 }
 
-  console.log(digitize(35231));
+console.log(digitize(35231));
