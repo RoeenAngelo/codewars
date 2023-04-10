@@ -15,5 +15,4 @@ function betterThanAverage(classPoints, yourPoints) {
   return yourPoints > classPoints.reduce((p, c) => p + c, 0) / classPoints.length; 
 }
 
-
-console.log(betterThanAverage([2, 3], 5));
+console.log(betterThanAverage([2, 3], 5));ç
