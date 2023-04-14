@@ -23,16 +23,10 @@
 
 function duplicateEncode(word){
     let arr = word.toLowerCase().split('')
-    let newArr =  arr.map((elem, index, array) => {
-        // console.log(array.indexOf(elem));
-        // console.log(array.lastIndexOf(elem));
-        return array.indexOf(elem) == array.lastIndexOf(elem) ? '(' : ')'
+    let newArr =  arr.map((elem) => {
+        return word.indexOf(elem) == word.lastIndexOf(elem) ? '(' : ')'
       })
-    let finalArr = newArr.join('');
-
-    console.log(newArr);
-    console.log(finalArr);
-
+    return newArr.join('');
 }
 
 console.log(duplicateEncode('recede'));
