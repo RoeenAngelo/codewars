@@ -14,9 +14,9 @@
 
 // Solution
 
-function number(busStops){
-    return busStops.reduce((rem, [on, off]) => rem + on - off, 0);
-}
+// function number(busStops){
+//     return busStops.reduce((rem, [on, off]) => rem + on - off, 0);
+// }
 
 function number(busStops){
     return busStops.map(x => x[0] - x[1]).reduce( (x, y) => x + y);

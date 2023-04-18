@@ -18,14 +18,6 @@
 // Solution
 
 function past(h, m, s){
-    let hs = h * 3600
-    let ms = m * 60
-    let result = (hs + ms + s) * 1000
-    return result
-}
-
-// Solution 2
-  function past(h, m, s){
     return ((h * 3600) + (m * 60) + s) * 1000;
   }
 
