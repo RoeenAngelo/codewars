@@ -12,21 +12,14 @@
 // Solution
 
 
-// function deleteNth(arr,x){
-//     var obj = {}
-//     return arr.filter(function(number){
-//       obj[number] = obj[number] ? obj[number] + 1 : 1
-//       return obj[number] <= x
-//     })
-//   }
-
-  function deleteNth(arr,x){
+function deleteNth(arr,x){
     var obj = {}
     return arr.filter(function(number){
       obj[number] = obj[number] ? obj[number] + 1 : 1
-      console.log(obj[number]);
       return obj[number] <= x
     })
   }
+
+
 
   console.log(deleteNth([20,37,20,21], 1))
