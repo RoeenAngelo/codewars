@@ -19,4 +19,12 @@ function reverseNumber(n) {
 
   }
 
+//   function reverseNumber(n) {
+
+//     return n < 0 ? +(n.toString().split('').slice(1).reverse().join('') * -1) 
+//     : +n.toString().split('').reverse().join('')
+
+
+//   }
+
  console.log(reverseNumber(-123))
