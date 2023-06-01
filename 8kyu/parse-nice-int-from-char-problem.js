@@ -7,8 +7,13 @@
 
 // Solution
 
-function getAge(inputString){
-    return +inputString.slice('')[0]
-  }
+// function getAge(inputString){
+//     return +inputString.slice('')[0]
+//   }
 
+
+  function getAge(inputString){
+    return parseInt(inputString);
+  }
+  
   console.log(getAge("4 years old"))
