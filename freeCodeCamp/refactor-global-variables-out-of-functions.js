@@ -18,16 +18,15 @@
 const bookList = ["The Hound of the Baskervilles", "On The Electrodynamics of Moving Bodies", "Philosophiæ Naturalis Principia Mathematica", "Disquisitiones Arithmeticae"];
 
 // Change code below this line
-function add(bookList, bookName) {
-  return [...bookList, bookName];
-  
+function add(arr, bookName) {
+  return [...arr, bookName];
   // Change code above this line
 }
 
 // Change code below this line
-function remove(bookList, bookName) {
-
-    return bookList.filter((book, index) => index !== bookList.indexOf(bookName));
+function remove(arr, bookName) {
+    return arr.filter((book, index) => index !== arr.indexOf(bookName));
     // Change code above this line
     
 }
+
