@@ -5,7 +5,7 @@
 
 // You might learn a lot about the map method if you implement your own version of it. It is recommended you use a for loop or Array.prototype.forEach().
 
-
+// Write your own Array.prototype.myMap(), which should behave exactly like Array.prototype.map(). You should not use the built-in map method. The Array instance can be accessed in the myMap method using this.
 
 // [23, 65, 98, 5, 13].myMap(item => item * 2) should equal [46, 130, 196, 10, 26].
 // Passed:["naomi", "quincy", "camperbot"].myMap(element => element.toUpperCase()) should return ["NAOMI", "QUINCY", "CAMPERBOT"].
@@ -15,6 +15,7 @@
 Array.prototype.myMap = function(callback) {
   const newArray = [];
 
+  //The Array instance can be accessed in the myMap method using this.
   for (i = 0; i < this.length; i++) {
     newArray.push(callback(this[i], i, this))
   }
