@@ -15,7 +15,7 @@
 Array.prototype.myMap = function(callback) {
   const newArray = [];
 
-  //The Array instance can be accessed in the myMap method using this.
+  //The Array instance can be accessed in the myMap method using 'this'.
   for (i = 0; i < this.length; i++) {
     newArray.push(callback(this[i], i, this))
   }
