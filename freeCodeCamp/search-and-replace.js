@@ -15,3 +15,15 @@
 // myReplace("This has a spellngi error", "spellngi", "spelling") should return the string This has a spelling error.
 // myReplace("His name is Tom", "Tom", "john") should return the string His name is John.
 // myReplace("Let us get back to more Coding", "Coding", "algorithms") should return the string Let us get back to more Algorithms.
+
+function myReplace(str, before, after) {
+  let index = str.indexOf(before);
+
+  if (str[index] === str[index].toUpperCase()) {
+    after = after.charAt(0).toUpperCase() + after.slice(1);
+  } else {
+    after = after.charAt(0).toLowerCase() + after.slice(1);
+  }
+
+  return str.replace(before, after);
+}
