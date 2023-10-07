@@ -4,7 +4,7 @@
 // If all letters are present in the range, return undefined.
 
 // fearNotLetter("abce") should return the string d.
-// fearNotLetter("abcdefghjklmno") should return the string i.
+// fearNotLetter("abcdefghjklmno") should retgiturn the string i.
 // fearNotLetter("stvwx") should return the string u.
 // fearNotLetter("bcdf") should return the string e.
 // fearNotLetter("abcdefghijklmnopqrstuvwxyz") should return undefined.
